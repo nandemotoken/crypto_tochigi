@@ -10,7 +10,7 @@ Node.jsで実装されています。
 あまりにもコードがシンプルなので、30分もあれば全てのコードを読むことが出来るでしょう。  
 
 使っている技術  
-Node.js , Web3js  
+Node.js , Web3js , HTML
   
 使っていない技術  
 CSS , JQuery , Ajax , express , vue , Angular , React , Babel など..  
