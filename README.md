@@ -20,4 +20,3 @@ Node.jsが動く環境を用意。(ConoHaVPSのNode.js構築済み環境が簡�
 git clone https://github.com/nandemotoken/crypto_tochigi.git  
 cd crypto_tochigi  
 node crypto_tochigi.js  
-
