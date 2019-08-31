@@ -1,0 +1,32 @@
+pragma solidity ^0.5.0;
+
+contract crypto_tochigi {
+
+string gyoza;
+string tochiotome;
+
+function write_gyoza(string memory g) public {
+    gyoza = g;
+}
+
+function write_tochiotome(string memory t) public {
+    tochiotome = t;
+}
+
+
+function read_gyoza(  ) public view returns ( string memory ) {
+    return gyoza;
+}
+
+
+function read_tochiotome(  ) public view  returns ( string memory ) {
+    return tochiotome;
+}
+
+
+function get3() public view returns ( uint256 ) {
+    return 3 ;
+}
+
+}
+
