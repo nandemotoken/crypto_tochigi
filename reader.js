@@ -9,6 +9,10 @@ mycontract = new web3js.eth.Contract(ABI , Address);
 //1.00-beta.36と表示されるのが正しい
 console.log( Web3.version );
 
+//metamask login処理
+ethereum.enable().then(console.log);
+
+
 //---------------------start---------------------------
 window.onload = function(){
         renew_id_tochiotome();
